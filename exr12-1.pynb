@@ -1,0 +1,23 @@
+#Define a class student include the following details like roll no,name and class 
+#Write methods to assign initial values and display student details
+
+class student:
+
+    def __init__ (self, r, n, c) :
+
+        self.rno=r 
+        self.nm=n
+        self.cls=c
+
+    def disp(self):
+
+        print ("The Details Are: ", self.rno, self.nm, self.cls)
+
+nam=input ("Enter Your Name: ")
+
+rn=int (input ("Enter Your Roll No: ")) 
+cl=int (input ("Enter Your Class: "))
+
+stud=student (rn, nam, cl)
+
+stud.disp()
