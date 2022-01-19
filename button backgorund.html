@@ -1,0 +1,20 @@
+<html>
+<body>
+<button align="center" type="button" onclick="bgchange();">CHANGE BGCOLOR</button>
+<script type="text/javascript">
+var clr=["#6699ff","#cc99ff","#99ff99","#ffffcc","#ff9966","#669999","#6699ff","#cc99ff","#99ff99","#ffffcc","#ff9966","#669999"];
+var l=clr.length;
+var i=0;
+function bgchange()
+{
+while(i<l)
+{
+document.getElementsByTagName("body")[0].style.backgroundColor=clr[i];
+i=i+1;
+return;
+}
+
+}
+</script>
+</body>
+</html>

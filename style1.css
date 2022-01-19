@@ -1,0 +1,33 @@
+
+h1 
+ {
+  color: #0e6ead;
+  text-align: center;
+ }
+h2 
+ {
+  color:#D2691E;
+  text-align: center;
+ }
+p
+ {
+  color:blue;text-align:center;opacity:0.5;
+ }
+a 
+ {
+   color:red;text-align:center;
+ }
+div
+ {	
+	display-block;
+	background-color:#F08080;
+	width:500px;
+	border: 8px solid #DEB887;
+	padding: 65px;
+	margin: auto;	
+	text-align:center;
+ } 
+
+
+
+

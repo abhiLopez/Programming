@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head><title>strng&math-Fnctns</title></head>
+<body align="center" style="background-color:#FAEBD7;">
+
+<h1 id="q" >Java Script Example</h1>
+<h6>STRING FUNCTION IS BASED ON TEXT GIVEN ABOVE</h6>
+
+<button onclick="myFunction();">String Functions</button>
+<h3 id="mt" ><u>Math Functions</u></h3> 
+
+<button onclick="myFnctn();">Math Functions</button>
+<script type = "text/javascript">
+         function myFunction() {
+  	 
+	 /*document.getElementById("q").textcontent;*/	 
+	 var a ="Java Script Example";
+				document.write("<h2>String Functions</h2><br>");
+         document.write("Length is:" + a.length,"<br>");
+	 			document.write("Sliced txt is:" + a.slice(0,4),"<br>");
+	 			document.write("Substrg txt is:" + a.substr(5,11),"<br>");
+	 			document.write("Replaced txt is:" + a.replace("Java","Mava"),"<br>");
+	 			document.write("Uppercase of txt is:" + a.toUpperCase(),"<br>");
+	 			document.write("Lowercase of txt is:" + a.toLowerCase(),"<br>");
+	 			document.write("Index of txt 'Example' is:" + a.indexOf("Example"),"<br>");
+	 			document.write("Last Index of 'Script' is:" + a.lastIndexOf("Script"),"<br>");
+	 			document.write("Character at '15th' position is :" + a.charAt(15),"<br>");
+	 			document.write("Concatinated 'Free' is:" + a.concat("Free"),"<br>");
+  	  
+}
+ function myFnctn() {
+  /*document.getElementById("mt").innerHTML = "Change is Inevitable";*/
+	  	 document.write("<h2>Math Functions</h2><br>");
+		 document.write("Value of 'PI' is: " + Math.PI,"<br>");
+		 document.write("Square root of '4' is:" + Math.sqrt(4),"<br>");  
+		 document.write("Power of '4' is:" + Math.pow(4,2),"<br>");  
+		 document.write("Mininum value anong '5,2,1,6' is:" + Math.min(5,2,6,1),"<br>");  
+		 document.write("Maximun value anong '5,2,1,6' is:" + Math.max(5,2,6,1),"<br>");
+		 document.write("Absolute value of '-15' is:" + Math.abs(-15),"<br>");  
+		 document.write("Rounded value of '8.6' is:" + Math.round(8.6),"<br>");  
+		 document.write("Floor value of '8.2' is:" + Math.floor(8.2),"<br>");  
+		 document.write("Ceil value of '8.2' is:" + Math.ceil(8.2),"<br>");
+		}
+</script>
+
+
+    
+</body>
+</html>
+
